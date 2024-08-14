@@ -93,3 +93,30 @@ when asked make changes in config file type y.
 ```
 
 2. In your browser. Astro uses http://localhost:4321 by default if port 4321 is available.
+
+
+
+#### Commit your local code to GitHub (Optional)
+
+1. You need to have an account in [GitHub](https://github.com/)
+
+2. Go to the page where your repositories are. Look for a green button that reads new and complete the form where you are redirected
+
+3. Once created push your local repository. Go to the terminal and execute
+
+```bash
+  git remote add origin git@github.com:{Your user name}/{Your git repository name}.git
+  git branch -M main
+  git push -u origin main
+```
+
+#### Deploy your code on vercel (Optional)
+
+1. You need to have an account in [Vercel](https://vercel.com/)
+
+2. Import your React project into Vercel.
+
+3. Vercel will detect that you are using Astro and will enable the correct settings for your deployment.
+
+4. Your application is deployed! (e.g. my-name-portfolio.vercel.app)
+
